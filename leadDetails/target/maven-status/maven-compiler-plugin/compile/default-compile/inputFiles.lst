@@ -1,0 +1,9 @@
+D:\Lead_Invoice\BE\lead_be\leadDetails\src\main\java\com\cpa\ttsms\exception\CPException.java
+D:\Lead_Invoice\BE\lead_be\leadDetails\src\main\java\com\cpa\ttsms\helper\ResponseHandler.java
+D:\Lead_Invoice\BE\lead_be\leadDetails\src\main\java\com\cpa\ttsms\entity\LeadDetails.java
+D:\Lead_Invoice\BE\lead_be\leadDetails\src\main\java\com\cpa\ttsms\controller\LeadDetailsController.java
+D:\Lead_Invoice\BE\lead_be\leadDetails\src\main\java\com\cpa\ttsms\service\LeadDetailsService.java
+D:\Lead_Invoice\BE\lead_be\leadDetails\src\main\java\com\cpa\ttsms\LeadDetailsApplication.java
+D:\Lead_Invoice\BE\lead_be\leadDetails\src\main\java\com\cpa\ttsms\repository\LeadDetailsRepo.java
+D:\Lead_Invoice\BE\lead_be\leadDetails\src\main\java\com\cpa\ttsms\ServletInitializer.java
+D:\Lead_Invoice\BE\lead_be\leadDetails\src\main\java\com\cpa\ttsms\serviceimpl\LeadDetailsServiceImpl.java

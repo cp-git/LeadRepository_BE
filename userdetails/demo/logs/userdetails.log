@@ -1,0 +1,754 @@
+2024-Jul-16 11:22:14 [DEBUG] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- Entering createUserDetails
+2024-Jul-16 11:22:14 [INFO ] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- data of creating UserDetails  :UserDetails [id=0, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-16 11:22:14 [DEBUG] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-16 11:22:14 [INFO ] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :null
+2024-Jul-16 11:22:14 [DEBUG] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- existing userdetails :null
+2024-Jul-16 11:22:14 [DEBUG] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- Entering createUserDetails
+2024-Jul-16 11:22:14 [INFO ] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- created UserDetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-16 11:22:14 [INFO ] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- UserDetails created :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-16 11:22:22 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- Entering createUserDetails
+2024-Jul-16 11:22:22 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- data of creating UserDetails  :UserDetails [id=0, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-16 11:22:22 [DEBUG] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-16 11:22:22 [INFO ] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-16 11:22:22 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- existing userdetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-16 11:22:22 [ERROR] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- UserDetails creation failed due to userId already exists!
+2024-Jul-16 11:22:35 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- Entering createUserDetails
+2024-Jul-16 11:22:35 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- data of creating UserDetails  :UserDetails [id=0, firstName=amar, lastName=walke, userName=user2, password=pass]
+2024-Jul-16 11:22:35 [DEBUG] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-16 11:22:36 [INFO ] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :null
+2024-Jul-16 11:22:36 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- existing userdetails :null
+2024-Jul-16 11:22:36 [DEBUG] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Entering createUserDetails
+2024-Jul-16 11:22:36 [INFO ] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- created UserDetails :UserDetails [id=2, firstName=amar, lastName=walke, userName=user2, password=pass]
+2024-Jul-16 11:22:36 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- UserDetails created :UserDetails [id=2, firstName=amar, lastName=walke, userName=user2, password=pass]
+2024-Jul-17 16:22:50 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 16:22:50 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-17 16:22:50 [DEBUG] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 16:22:50 [INFO ] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :null
+2024-Jul-17 16:22:50 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- fetched UserDetails :null
+2024-Jul-17 16:22:50 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- UserDetails not found
+2024-Jul-17 16:23:59 [DEBUG] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 16:23:59 [INFO ] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-17 16:23:59 [DEBUG] - [http-nio-8090-exec-7] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 16:23:59 [INFO ] - [http-nio-8090-exec-7] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :null
+2024-Jul-17 16:23:59 [INFO ] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- fetched UserDetails :null
+2024-Jul-17 16:23:59 [DEBUG] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- UserDetails not found
+2024-Jul-17 16:27:50 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 16:27:50 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-17 16:27:50 [DEBUG] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 16:27:50 [INFO ] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 16:27:50 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 16:27:50 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 16:27:55 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 16:27:55 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 16:27:55 [DEBUG] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 16:27:55 [INFO ] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=amar, lastName=walke, userName=user2, password=pass]
+2024-Jul-17 16:27:55 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=amar, lastName=walke, userName=user2, password=pass]
+2024-Jul-17 16:27:55 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 16:32:11 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 16:32:11 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 16:32:11 [DEBUG] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 16:32:11 [INFO ] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=amar, lastName=walke, userName=user2, password=pass]
+2024-Jul-17 16:32:11 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=amar, lastName=walke, userName=user2, password=pass]
+2024-Jul-17 16:32:11 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 16:42:32 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 16:42:32 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-17 16:42:32 [DEBUG] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 16:42:32 [INFO ] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 16:42:32 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 16:42:32 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 16:46:36 [DEBUG] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 16:46:36 [INFO ] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-17 16:46:36 [DEBUG] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 16:46:36 [INFO ] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 16:46:36 [INFO ] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 16:46:36 [DEBUG] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 16:47:50 [DEBUG] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 16:47:50 [INFO ] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-17 16:47:50 [DEBUG] - [http-nio-8090-exec-9] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 16:47:50 [INFO ] - [http-nio-8090-exec-9] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 16:47:50 [INFO ] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 16:47:50 [DEBUG] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 16:52:33 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 16:52:33 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-17 16:52:33 [DEBUG] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 16:52:33 [INFO ] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 16:52:33 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 16:52:33 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 16:52:45 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 16:52:45 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-17 16:52:45 [DEBUG] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 16:52:45 [INFO ] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 16:52:45 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 16:52:45 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 17:00:25 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 17:00:25 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-17 17:00:25 [DEBUG] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 17:00:25 [INFO ] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 17:00:25 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 17:00:25 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 17:00:51 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 17:00:51 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-17 17:00:51 [DEBUG] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 17:00:51 [INFO ] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 17:00:51 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 17:00:51 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 17:02:44 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 17:02:44 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-17 17:02:44 [DEBUG] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 17:02:44 [INFO ] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 17:02:44 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 17:02:44 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 17:17:47 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 17:17:47 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-17 17:17:47 [DEBUG] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 17:17:47 [INFO ] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 17:17:47 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 17:17:47 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 17:19:28 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 17:19:28 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-17 17:19:28 [DEBUG] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 17:19:28 [INFO ] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 17:19:28 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 17:19:28 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 17:19:41 [DEBUG] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 17:19:41 [INFO ] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-17 17:19:41 [DEBUG] - [http-nio-8090-exec-7] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 17:19:41 [INFO ] - [http-nio-8090-exec-7] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 17:19:41 [INFO ] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 17:19:41 [DEBUG] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 17:19:47 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 17:19:47 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-17 17:19:47 [DEBUG] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 17:19:47 [INFO ] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 17:19:47 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 17:19:47 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 17:21:30 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 17:21:30 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-17 17:21:30 [DEBUG] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 17:21:30 [INFO ] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 17:21:30 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=kaushik, lastName=walke, userName=user1, password=pass]
+2024-Jul-17 17:21:30 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 17:23:16 [DEBUG] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 17:23:16 [INFO ] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 17:23:16 [DEBUG] - [http-nio-8090-exec-9] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 17:23:16 [INFO ] - [http-nio-8090-exec-9] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:23:16 [INFO ] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:23:16 [DEBUG] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 17:27:58 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 17:27:58 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 17:27:58 [DEBUG] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 17:27:58 [INFO ] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:27:58 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:27:58 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 17:28:53 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 17:28:53 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 17:28:53 [DEBUG] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 17:28:53 [INFO ] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:28:53 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:28:53 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 17:29:38 [DEBUG] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 17:29:38 [INFO ] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 17:29:38 [DEBUG] - [http-nio-8090-exec-7] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 17:29:38 [INFO ] - [http-nio-8090-exec-7] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:29:38 [INFO ] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:29:38 [DEBUG] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 17:30:01 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 17:30:01 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 17:30:01 [DEBUG] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 17:30:01 [INFO ] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:30:01 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:30:01 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 17:30:43 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 17:30:43 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 17:30:43 [DEBUG] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 17:30:43 [INFO ] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:30:43 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:30:43 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 17:39:27 [DEBUG] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 17:39:27 [INFO ] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 17:39:27 [DEBUG] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 17:39:27 [INFO ] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:39:27 [INFO ] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:39:27 [DEBUG] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 17:40:10 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 17:40:10 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 17:40:10 [DEBUG] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 17:40:10 [INFO ] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:40:10 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:40:10 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 17:40:49 [DEBUG] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 17:40:49 [INFO ] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 17:40:49 [DEBUG] - [http-nio-8090-exec-9] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 17:40:49 [INFO ] - [http-nio-8090-exec-9] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:40:49 [INFO ] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:40:49 [DEBUG] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 17:45:39 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 17:45:39 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 17:45:39 [DEBUG] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 17:45:39 [INFO ] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:45:39 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:45:39 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 17:46:22 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 17:46:22 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 17:46:22 [DEBUG] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 17:46:22 [INFO ] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:46:22 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:46:22 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 17:49:11 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 17:49:11 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 17:49:11 [DEBUG] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 17:49:11 [INFO ] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:49:11 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:49:11 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 17:49:54 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 17:49:54 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 17:49:54 [DEBUG] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 17:49:54 [INFO ] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:49:54 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:49:54 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 17:57:48 [DEBUG] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 17:57:48 [INFO ] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 17:57:48 [DEBUG] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 17:57:48 [INFO ] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:57:48 [INFO ] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:57:48 [DEBUG] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 17:57:49 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 17:57:49 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 17:57:49 [DEBUG] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 17:57:49 [INFO ] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:57:49 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 17:57:49 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:01:19 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:01:19 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:01:19 [DEBUG] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:01:19 [INFO ] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:01:19 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:01:19 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:01:56 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:01:56 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:01:56 [DEBUG] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:01:56 [INFO ] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:01:56 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:01:56 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:02:40 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:02:40 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:02:40 [DEBUG] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:02:40 [INFO ] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:02:40 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:02:40 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:05:43 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:05:43 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:05:43 [DEBUG] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:05:43 [INFO ] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:05:43 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:05:43 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:06:17 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:06:17 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:06:17 [DEBUG] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:06:17 [INFO ] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:06:17 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:06:17 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:06:23 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:06:23 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:06:23 [DEBUG] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:06:23 [INFO ] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:06:23 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:06:23 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:07:29 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:07:29 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:07:29 [DEBUG] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:07:29 [INFO ] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:07:29 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:07:29 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:10:12 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:10:12 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:10:12 [DEBUG] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:10:12 [INFO ] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:10:12 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:10:12 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:10:16 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:10:16 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:10:16 [DEBUG] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:10:16 [INFO ] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:10:16 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:10:16 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:11:07 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:11:07 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:11:07 [DEBUG] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:11:07 [INFO ] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:11:07 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:11:07 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:11:34 [DEBUG] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:11:34 [INFO ] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:11:34 [DEBUG] - [http-nio-8090-exec-7] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:11:34 [INFO ] - [http-nio-8090-exec-7] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:11:34 [INFO ] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:11:34 [DEBUG] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:11:48 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:11:48 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:11:48 [DEBUG] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:11:48 [INFO ] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:11:48 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:11:48 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:12:02 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:12:02 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:12:02 [DEBUG] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:12:02 [INFO ] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:12:02 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:12:02 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:12:18 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:12:18 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:12:18 [DEBUG] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:12:18 [INFO ] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:12:18 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:12:18 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:12:27 [DEBUG] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:12:27 [INFO ] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:12:27 [DEBUG] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:12:27 [INFO ] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:12:27 [INFO ] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:12:27 [DEBUG] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:12:56 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:12:56 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:12:56 [DEBUG] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:12:56 [INFO ] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:12:56 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:12:56 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:16:06 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:16:06 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:16:06 [DEBUG] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:16:06 [INFO ] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:16:06 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:16:06 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:16:28 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:16:28 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:16:28 [DEBUG] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:16:28 [INFO ] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:16:28 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:16:28 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:16:35 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:16:35 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:16:35 [DEBUG] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:16:35 [INFO ] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:16:35 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:16:35 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:16:46 [DEBUG] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:16:46 [INFO ] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:16:46 [DEBUG] - [http-nio-8090-exec-7] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:16:46 [INFO ] - [http-nio-8090-exec-7] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:16:46 [INFO ] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:16:46 [DEBUG] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:16:50 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:16:50 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:16:50 [DEBUG] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:16:50 [INFO ] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:16:50 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:16:50 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:17:01 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:17:01 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:17:01 [DEBUG] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:17:01 [INFO ] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:17:01 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:17:01 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:17:10 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:17:10 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:17:10 [DEBUG] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:17:10 [INFO ] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:17:10 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:17:10 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:17:25 [DEBUG] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:17:25 [INFO ] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:17:25 [DEBUG] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:17:25 [INFO ] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:17:25 [INFO ] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:17:25 [DEBUG] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:17:34 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:17:34 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:17:34 [DEBUG] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:17:34 [INFO ] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:17:34 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:17:34 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:17:57 [DEBUG] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:17:57 [INFO ] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:17:57 [DEBUG] - [http-nio-8090-exec-9] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:17:57 [INFO ] - [http-nio-8090-exec-9] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:17:57 [INFO ] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:17:57 [DEBUG] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:18:04 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:18:04 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:18:04 [DEBUG] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:18:04 [INFO ] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:18:04 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:18:04 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:18:06 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:18:06 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:18:06 [DEBUG] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:18:06 [INFO ] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:18:06 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:18:06 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:18:19 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:18:19 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:18:19 [DEBUG] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:18:19 [INFO ] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:18:19 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:18:19 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:18:28 [DEBUG] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:18:28 [INFO ] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:18:28 [DEBUG] - [http-nio-8090-exec-7] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:18:28 [INFO ] - [http-nio-8090-exec-7] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:18:28 [INFO ] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:18:28 [DEBUG] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:18:58 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:18:58 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:18:58 [DEBUG] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:18:58 [INFO ] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:18:58 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:18:58 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:19:08 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:19:08 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:19:08 [DEBUG] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:19:08 [INFO ] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:19:08 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:19:08 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:19:15 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:19:15 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:19:15 [DEBUG] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:19:15 [INFO ] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:19:15 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:19:15 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:19:21 [DEBUG] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:19:21 [INFO ] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:19:21 [DEBUG] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:19:21 [INFO ] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:19:21 [INFO ] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:19:21 [DEBUG] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:19:47 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:19:47 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:19:47 [DEBUG] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:19:47 [INFO ] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:19:47 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:19:47 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:19:54 [DEBUG] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:19:54 [INFO ] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:19:54 [DEBUG] - [http-nio-8090-exec-9] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:19:54 [INFO ] - [http-nio-8090-exec-9] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:19:54 [INFO ] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:19:54 [DEBUG] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:20:01 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:20:01 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:20:01 [DEBUG] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:20:01 [INFO ] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:20:01 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:20:01 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:20:08 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:20:08 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:20:08 [DEBUG] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:20:08 [INFO ] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:20:08 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:20:08 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:20:12 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:20:12 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:20:12 [DEBUG] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:20:12 [INFO ] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:20:12 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:20:12 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:20:30 [DEBUG] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:20:30 [INFO ] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:20:30 [DEBUG] - [http-nio-8090-exec-7] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:20:30 [INFO ] - [http-nio-8090-exec-7] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:20:30 [INFO ] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:20:30 [DEBUG] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:20:40 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:20:40 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:20:40 [DEBUG] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:20:40 [INFO ] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:20:40 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:20:40 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:20:48 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:20:48 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:20:48 [DEBUG] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:20:48 [INFO ] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:20:48 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:20:48 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:21:18 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:21:18 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:21:18 [DEBUG] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:21:18 [INFO ] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:21:18 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:21:18 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:21:29 [DEBUG] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:21:29 [INFO ] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:21:29 [DEBUG] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:21:29 [INFO ] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:21:29 [INFO ] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:21:29 [DEBUG] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:21:36 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:21:36 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:21:36 [DEBUG] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:21:36 [INFO ] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:21:36 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:21:36 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:21:42 [DEBUG] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:21:42 [INFO ] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:21:42 [DEBUG] - [http-nio-8090-exec-9] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:21:42 [INFO ] - [http-nio-8090-exec-9] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:21:42 [INFO ] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:21:42 [DEBUG] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:22:14 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:22:14 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:22:14 [DEBUG] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:22:14 [INFO ] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:22:14 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:22:14 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:22:27 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:22:27 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:22:27 [DEBUG] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:22:27 [INFO ] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:22:27 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:22:27 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:22:38 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:22:38 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:22:38 [DEBUG] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:22:38 [INFO ] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:22:38 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=john, lastName=cena, userName=user2, password=pass]
+2024-Jul-17 18:22:38 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:25:14 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:25:14 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-17 18:25:14 [DEBUG] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:25:14 [INFO ] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-17 18:25:14 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-17 18:25:14 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:25:22 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:25:22 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-17 18:25:22 [DEBUG] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:25:22 [INFO ] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-17 18:25:22 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-17 18:25:22 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:29:32 [DEBUG] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:29:32 [INFO ] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-17 18:29:32 [DEBUG] - [http-nio-8090-exec-9] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:29:32 [INFO ] - [http-nio-8090-exec-9] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-17 18:29:32 [INFO ] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-17 18:29:32 [DEBUG] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:30:40 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:30:40 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-17 18:30:40 [DEBUG] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:30:40 [INFO ] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-17 18:30:40 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-17 18:30:40 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:32:04 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:32:04 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:32:04 [DEBUG] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:32:04 [INFO ] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-17 18:32:04 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-17 18:32:04 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-17 18:32:48 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-17 18:32:48 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-17 18:32:48 [DEBUG] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-17 18:32:48 [INFO ] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-17 18:32:48 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-17 18:32:48 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 10:02:07 [DEBUG] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 10:02:07 [INFO ] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-18 10:02:07 [DEBUG] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 10:02:07 [INFO ] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 10:02:07 [INFO ] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 10:02:07 [DEBUG] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 10:06:05 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 10:06:05 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-18 10:06:05 [DEBUG] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 10:06:05 [INFO ] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 10:06:05 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 10:06:05 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 10:06:39 [DEBUG] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 10:06:39 [INFO ] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-18 10:06:39 [DEBUG] - [http-nio-8090-exec-7] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 10:06:39 [INFO ] - [http-nio-8090-exec-7] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 10:06:39 [INFO ] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 10:06:39 [DEBUG] - [http-nio-8090-exec-7] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 10:06:43 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 10:06:43 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-18 10:06:43 [DEBUG] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 10:06:43 [INFO ] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 10:06:43 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 10:06:43 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 10:07:01 [DEBUG] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 10:07:01 [INFO ] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-18 10:07:01 [DEBUG] - [http-nio-8090-exec-9] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 10:07:01 [INFO ] - [http-nio-8090-exec-9] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 10:07:01 [INFO ] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 10:07:01 [DEBUG] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 10:16:41 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 10:16:41 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-18 10:16:41 [DEBUG] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 10:16:41 [INFO ] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 10:16:41 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 10:16:41 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 10:22:25 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 10:22:25 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-18 10:22:25 [DEBUG] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 10:22:25 [INFO ] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 10:22:25 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 10:22:25 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 10:36:31 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 10:36:31 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-18 10:36:31 [DEBUG] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 10:36:31 [INFO ] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 10:36:31 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 10:36:31 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 11:12:12 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 11:12:12 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-18 11:12:12 [DEBUG] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 11:12:12 [INFO ] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 11:12:12 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 11:12:12 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 11:16:55 [DEBUG] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 11:16:55 [INFO ] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-18 11:16:55 [DEBUG] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 11:16:55 [INFO ] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 11:16:55 [INFO ] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 11:16:55 [DEBUG] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 11:18:39 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 11:18:39 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-18 11:18:39 [DEBUG] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 11:18:39 [INFO ] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 11:18:39 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 11:18:39 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 12:01:20 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 12:01:20 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-18 12:01:20 [DEBUG] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 12:01:20 [INFO ] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 12:01:20 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 12:01:20 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 13:04:03 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 13:04:03 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-18 13:04:03 [DEBUG] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 13:04:03 [INFO ] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 13:04:03 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 13:04:03 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 14:00:33 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 14:00:33 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-18 14:00:33 [DEBUG] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 14:00:33 [INFO ] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 14:00:33 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 14:00:33 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 14:09:51 [DEBUG] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 14:09:51 [INFO ] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-18 14:09:51 [DEBUG] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 14:09:51 [INFO ] - [http-nio-8090-exec-2] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 14:09:51 [INFO ] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 14:09:51 [DEBUG] - [http-nio-8090-exec-2] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 14:10:04 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 14:10:04 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-18 14:10:04 [DEBUG] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 14:10:04 [INFO ] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 14:10:04 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 14:10:04 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 14:20:25 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 14:20:25 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-18 14:20:25 [DEBUG] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 14:20:25 [INFO ] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 14:20:25 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 14:20:25 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 14:31:12 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 14:31:12 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-18 14:31:12 [DEBUG] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 14:31:12 [INFO ] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 14:31:12 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 14:31:12 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 15:04:38 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 15:04:38 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-18 15:04:38 [DEBUG] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 15:04:38 [INFO ] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 15:04:38 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 15:04:38 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 15:05:30 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 15:05:30 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-18 15:05:30 [DEBUG] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 15:05:30 [INFO ] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 15:05:30 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 15:05:30 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 15:30:18 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 15:30:18 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-18 15:30:18 [DEBUG] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 15:30:18 [INFO ] - [http-nio-8090-exec-4] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 15:30:18 [INFO ] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 15:30:18 [DEBUG] - [http-nio-8090-exec-4] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 15:41:16 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 15:41:16 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-18 15:41:16 [DEBUG] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 15:41:16 [INFO ] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 15:41:16 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 15:41:16 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 16:46:12 [DEBUG] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 16:46:12 [INFO ] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-18 16:46:12 [DEBUG] - [http-nio-8090-exec-9] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 16:46:12 [INFO ] - [http-nio-8090-exec-9] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 16:46:12 [INFO ] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 16:46:12 [DEBUG] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 16:47:03 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 16:47:03 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-18 16:47:03 [DEBUG] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 16:47:03 [INFO ] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 16:47:03 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 16:47:03 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 16:53:13 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 16:53:13 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-18 16:53:13 [DEBUG] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 16:53:13 [INFO ] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 16:53:13 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 16:53:13 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 16:56:58 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 16:56:58 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- entered user name :2
+2024-Jul-18 16:56:58 [DEBUG] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 16:56:58 [INFO ] - [http-nio-8090-exec-8] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 16:56:58 [INFO ] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=2, firstName=Pravin, lastName=Jadhav, userName=pravin, password=pass]
+2024-Jul-18 16:56:58 [DEBUG] - [http-nio-8090-exec-8] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 16:57:09 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 16:57:09 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-18 16:57:09 [DEBUG] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 16:57:09 [INFO ] - [http-nio-8090-exec-10] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 16:57:09 [INFO ] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 16:57:09 [DEBUG] - [http-nio-8090-exec-10] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 18:02:16 [DEBUG] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 18:02:16 [INFO ] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-18 18:02:16 [DEBUG] - [http-nio-8090-exec-9] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 18:02:16 [INFO ] - [http-nio-8090-exec-9] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 18:02:16 [INFO ] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 18:02:16 [DEBUG] - [http-nio-8090-exec-9] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 18:12:03 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 18:12:03 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-18 18:12:03 [DEBUG] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 18:12:03 [INFO ] - [http-nio-8090-exec-1] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 18:12:03 [INFO ] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 18:12:03 [DEBUG] - [http-nio-8090-exec-1] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 18:27:01 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 18:27:01 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-18 18:27:01 [DEBUG] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 18:27:01 [INFO ] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 18:27:01 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 18:27:01 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-18 18:30:14 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-18 18:30:14 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-18 18:30:14 [DEBUG] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-18 18:30:14 [INFO ] - [http-nio-8090-exec-5] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 18:30:14 [INFO ] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-18 18:30:14 [DEBUG] - [http-nio-8090-exec-5] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-19 11:16:19 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-19 11:16:19 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-19 11:16:19 [DEBUG] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-19 11:16:19 [INFO ] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-19 11:16:19 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=Aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-19 11:16:19 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-23 16:59:32 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-23 16:59:32 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-23 16:59:32 [DEBUG] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-23 16:59:32 [INFO ] - [http-nio-8090-exec-6] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-23 16:59:32 [INFO ] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-23 16:59:32 [DEBUG] - [http-nio-8090-exec-6] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
+2024-Jul-23 17:07:35 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- Entering getUserDetailsByuserId
+2024-Jul-23 17:07:35 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- entered user name :1
+2024-Jul-23 17:07:35 [DEBUG] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Entering getUserDetailsByuserId
+2024-Jul-23 17:07:35 [INFO ] - [http-nio-8090-exec-3] c.c.t.s.UserDetailsServiceImpl -- Founded userdetails :UserDetails [id=1, firstName=aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-23 17:07:35 [INFO ] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- fetched UserDetails :UserDetails [id=1, firstName=aditya, lastName=Dhumal, userName=aditya, password=pass]
+2024-Jul-23 17:07:35 [DEBUG] - [http-nio-8090-exec-3] c.c.t.c.UserDetailsController  -- UserDetails fetched generating response
