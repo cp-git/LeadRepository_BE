@@ -32,6 +32,6 @@ LeadDetails updateLeadDetailsById(LeadDetails leadDetails, int id);
 //
 //	int deleteLeadDetailsByuserId(String userid);
 
-	List<LeadDetails> searchProducts(String query);
+	
 
 }

@@ -227,10 +227,6 @@ public class LeadDetailsServiceImpl implements LeadDetailsService {
 //		return count;
 //	}
 	
-	@Override
-    public List<LeadDetails> searchProducts(String query) {
-        List<LeadDetails> products = leadDetailsRepo.search(query);
-        return products;
-    }
+	
 
 }

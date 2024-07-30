@@ -227,15 +227,34 @@ public class LeadDetailsController {
 	}
 	
 	
-	  @GetMapping("/search")
-	    public ResponseEntity<List<LeadDetails>> searchProducts(@RequestParam("query") String query){
-	        return ResponseEntity.ok(leadDetailsService.searchProducts(query));
-	    }
+	
 	  
 	  
 	  @GetMapping("/searchupdate")
 	    public List<LeadDetails> searchProducts(@RequestParam(required = false) String companyName, @RequestParam(required = false) String recruiterName, @RequestParam(required = false) String recruiterMail, @RequestParam(required = false) String positionName, @RequestParam(required = false) String jobLocation) {
-	        return leadDetailsRepo.search(companyName, recruiterName, recruiterMail,positionName,jobLocation);
+		     System.out.println("In controller...");
+		     if(companyName == null && recruiterName ==null && recruiterMail==null && positionName ==null &&  jobLocation ==null ) {
+		    	 return leadDetailsRepo.search(null,null,null,null,null);
+		     }
+		     else if(recruiterName ==null && recruiterMail==null && positionName ==null &&  jobLocation ==null) {
+		    	 return  leadDetailsRepo.searchByCompanyName(companyName);
+		     }
+		     else if(companyName ==null && recruiterMail==null && positionName ==null &&  jobLocation ==null) {
+		    	 	return leadDetailsRepo.searchByRecuiterName(recruiterName);
+		     }
+		     else if(companyName ==null && recruiterName==null && positionName ==null &&  jobLocation ==null) {
+		    	 return leadDetailsRepo.searchByRecruiterMail(recruiterMail);
+		     }
+		     else if(companyName ==null && recruiterName==null && recruiterMail ==null &&  jobLocation ==null) {
+		    	 return leadDetailsRepo.searchBypositionName(positionName);
+		     }
+		     else if(companyName ==null && recruiterName==null && recruiterMail ==null &&  positionName ==null) {
+		    	 return leadDetailsRepo.searchByjobLocation(jobLocation);
+		     }
+		     else {
+		    	 return leadDetailsRepo.search(companyName,recruiterName,recruiterMail,positionName,jobLocation);
+		    	 
+		     }
 	    }
 	
 	
